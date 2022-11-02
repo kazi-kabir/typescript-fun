@@ -1,6 +1,6 @@
 // good ol calculate the sum of numbers within an array
 
-const numArray : Array<number> = [3,4];
+const numArray : Array<number> = [-3,4];
 
 const calculateSumOfTheArray = (numArray : Array<number>) => {
     let res = numArray.reduce((a, b) => a + b);
@@ -9,3 +9,4 @@ const calculateSumOfTheArray = (numArray : Array<number>) => {
 
 let result = calculateSumOfTheArray(numArray);
 console.log(result);
+

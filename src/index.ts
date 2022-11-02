@@ -1,11 +1,11 @@
 // good ol calculate the sum of numbers within an array
 
-const numArray : Array<number> = [1,2,3,4];
-let tot : number = 0;
+const numArray : Array<number> = [3,4];
 
-
-for (let i=0; i<numArray.length; i++) {
-    tot = tot + numArray[i]
+const calculateSumOfTheArray = (numArray : Array<number>) => {
+    let res = numArray.reduce((a, b) => a + b);
+    return res;
 }
 
-console.log(tot);
+let result = calculateSumOfTheArray(numArray);
+console.log(result);

@@ -1,5 +1,3 @@
-// good ol calculate the sum of numbers within an array
-
 const numArray : Array<number> = [-3,4];
 
 const calculateSumOfTheArray = (numArray : Array<number>) => {

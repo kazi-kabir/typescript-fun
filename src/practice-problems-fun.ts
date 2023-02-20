@@ -1,9 +1,12 @@
 // print time and date
 
 // date
-let currentTime = new Date();
+let currentDate = new Date();
 
-let date = currentTime.getFullYear()+'-'+(currentTime.getMonth()+1)+'-'+currentTime.getDate();
+let date = currentDate.getFullYear()+'-'+(currentDate.getMonth()+1)+'-'+currentDate.getDate();
 
 console.log(date);
+
+// time
+
 

@@ -6,5 +6,6 @@ function convertInchToCM(inch) {
     return inch * 2.54;
 }
 
-let userInput = prompt("Enter a number to convert");
+let userInput = prompt("pick a conversion");
+
 alert(userInput);

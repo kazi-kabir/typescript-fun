@@ -4,4 +4,4 @@ const calculateSumOfTheArray = (numArray : Array<number>) => {
     return numArray.reduce((a, b) => a + b);
 }
 
-console.log(calculateSumOfTheArray(numArray););
+console.log(calculateSumOfTheArray(numArray));
